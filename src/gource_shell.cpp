@@ -99,9 +99,9 @@ void GourceShell::keyPress(SDL_KeyboardEvent *e) {
         bool key_return = e->keysym.unicode == SDLK_RETURN;
 #endif
 
-        if (key_escape) {
-            quit();
-        }
+//        if (key_escape) {
+//            quit();
+//        }
 
         if(key_return) {
 

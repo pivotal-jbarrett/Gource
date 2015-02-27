@@ -659,9 +659,9 @@ void Gource::keyPress(SDL_KeyboardEvent *e) {
         bool key_period       = e->keysym.unicode == SDLK_PERIOD;
         bool key_slash        = e->keysym.unicode == SDLK_SLASH;
 #endif
-        if (key_escape) {
-            quit();
-        }
+//        if (key_escape) {
+//            quit();
+//        }
 
         if(commitlog==0) return;
 
